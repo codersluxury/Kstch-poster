@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 80vw;
+    height: 80vh;
+    background-color: #000;
+    border-radius: 20px;
+    /* background-image: url(img/Kstch-background1.JPG);
+    background-position: center;
+    background-size: contain; */
+}
+
+header {
+    height: 21%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 99.95%;
+}
+
+header img {
+    width: 20%;
+    border-radius: 4px 20px 4px 4px ;
+}
+
+#header-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 4.3px;
+    font-size: 1.3em;
+    align-items: end;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 5px 0 0 5px;
+    direction: rtl;
+    width: 75%;
+    margin-bottom: -8px;
+}
+
+i {
+    margin-right: 5px;
+    margin-left: 4px;
+}
+
+main {
+    width: 100%;
+    /* border: 2px solid ; */
+    height: 100%;
+}
+
+h1 {
+    text-align: center; 
+    background-color: lightblue; 
+    margin-top: 16px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin-bottom: -6px;
+}
+
+.details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-top: 15px;
+    background-color: lightblue;
+    padding: 9px 0 9px 0;
+    margin-bottom: -14px;
+}
+
+.sec-details {
+    display: flex;
+    direction: rtl;
+    gap: 6px;
+}
+
+img {
+    width: 29px;
+    margin-left: 9px;
+}
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    height: 120px;
+    margin-top: 23px;
+    border-radius: 0 0 20px 20px;
+}
+
+#footer-title {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#footer-description {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-color: black;
+}
