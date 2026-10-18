@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: #000;
+    background-color: blue;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -15,7 +15,7 @@ html {
 
 body {
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     background-color: #fff;
     border-radius: 20px;
     /* background-image: url(img/Kstch-background1.JPG);
@@ -48,6 +48,10 @@ header img {
     direction: rtl;
     width: 75%;
     margin-bottom: -8px;
+}
+
+a {
+    color: black;
 }
 
 i {
