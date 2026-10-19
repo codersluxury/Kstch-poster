@@ -245,19 +245,20 @@ hr {
         width: 100%;
         margin-bottom: 0;
         padding: 8px 10px;
+        gap: 10px;
     }
 
     .icon-text {
         overflow-wrap: anywhere;
+        font-size: 1.2rem;
     }
 
     h1 {
-        font-size: 1.25rem;
         margin-bottom: -14px;
     }
 
     .sec-details h2 {
-        font-size: 1rem;
+        
     }
 
     footer {
@@ -267,11 +268,11 @@ hr {
     }
 
     #footer-title {
-        font-size: 1.1rem;
+        
     }
 
     #footer-description {
-        font-size: 0.9rem;
+        font-size: ;
     }
 
     #footer-icons {
