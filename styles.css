@@ -189,7 +189,7 @@ hr {
 
     body {
         width: 100%;
-        min-height: calc(100vh - 32px);
+        min-height: calc(80vh - 32px);
         border-radius: 16px;
     }
 
