@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: blue;
+    background: linear-gradient(360deg, lightblue, blue, lightblue);
     min-height: 100vh;
     overflow-x: hidden;
     display: flex;
@@ -222,7 +222,7 @@ hr {
     }
 
     body {
-        min-height: calc(100vh - 20px);
+        min-height: calc(85vh - 20px);
         border-radius: 12px;
     }
 
