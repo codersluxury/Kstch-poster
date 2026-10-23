@@ -5,7 +5,7 @@
 }
 
 html {
-    background: linear-gradient(360deg, lightblue, blue, lightblue);
+    background: linear-gradient(360deg, lightblue, rgb(54, 54, 255), lightblue);
     min-height: 100vh;
     overflow-x: hidden;
     display: flex;
