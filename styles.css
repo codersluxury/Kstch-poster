@@ -8,9 +8,6 @@ html {
     background: linear-gradient(360deg, lightblue, rgb(54, 54, 255), lightblue);
     min-height: 100vh;
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 24px;
 }
 
@@ -21,11 +18,7 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    /* background-image: url(img/Kstch-background1.JPG);
-    background-position: center;
-    background-size: contain; */
-    justify-content: center;
-    align-items: center;
+    margin-top: 12px;
 }
 
 header {
@@ -49,7 +42,7 @@ header img {
     font-size: 1.2em;
     align-items: flex-start;
     background-color: lightblue;
-    border-radius: 0 20px 20px 0;
+    border-radius: 8px 20px 20px 0;
     padding: 5px 0 0 5px;
     direction: ltr;
     width: 80%;
@@ -255,6 +248,7 @@ hr {
         margin-bottom: 0;
         padding: 8px 10px;
         gap: 10px;
+        margin-top: -10px;
     }
 
     .icon-text {
