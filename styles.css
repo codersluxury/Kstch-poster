@@ -18,7 +18,6 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
 }
 
 header {
@@ -222,6 +221,8 @@ hr {
 @media (max-width: 480px) {
     html {
         padding: 10px;
+        display: flex;
+        align-items: center;
     }
 
     body {
@@ -265,18 +266,10 @@ hr {
         height: 60px;
     }
 
-    .sec-details h2 {
-        
-    }
-
     footer {
         border-radius: 0 0 12px 12px;
         padding: 10px 8px 14px;
         margin-top: 1px;
-    }
-
-    #footer-title {
-        
     }
 
     #footer-description {
