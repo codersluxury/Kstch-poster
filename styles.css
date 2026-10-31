@@ -270,6 +270,7 @@ hr {
         border-radius: 0 0 12px 12px;
         padding: 10px 8px 14px;
         margin-top: 1px;
+        min-height: 100%;
     }
 
     #footer-description {
