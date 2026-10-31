@@ -24,6 +24,8 @@ body {
     /* background-image: url(img/Kstch-background1.JPG);
     background-position: center;
     background-size: contain; */
+    justify-content: center;
+    align-items: center;
 }
 
 header {
