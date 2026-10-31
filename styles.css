@@ -72,6 +72,7 @@ main {
     width: 100%;
     /* border: 2px solid ; */
     flex: 1;
+    min-height: 100%;
 }
 
 h1 {
@@ -229,8 +230,9 @@ hr {
     }
 
     body {
-        min-height: calc(85vh - 20px);
+        min-height: calc(80vh - 20px);
         border-radius: 12px;
+        border-bottom: 2px solid whitesmoke;
     }
 
     header {
@@ -257,6 +259,10 @@ hr {
     .icon-text {
         overflow-wrap: anywhere;
         font-size: 1.2rem;
+    }
+
+    main {
+        min-height: 100%;
     }
 
     h1 {
